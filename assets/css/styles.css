@@ -5,15 +5,17 @@
     box-sizing: border-box;
 }
 
+/* Reset default styles */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Exo 2', 'Arial', 'sans-serif';
+    font-family: 'Exo 2', 'Arial', 'Sans-Serif';
     background-color: #e7eded;
     color: #003b59;
 }
 
+/* Body layout */
 body {
     display: flex;
     flex-direction: column;
