@@ -77,3 +77,12 @@ header {
     width: 26px;
     fill: #e7eded;
 }
+
+/* Dropdown list styles */
+#menu-toggle {
+    display: none; /* Hides checkbox */
+}
+
+#menu-toggle:checked + .menu-toggle-label + nav #nav-menu {
+    display: flex;
+}
