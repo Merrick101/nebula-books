@@ -116,3 +116,16 @@ header {
     text-decoration: underline;
     cursor: pointer;
 }
+
+/* Main content styles */
+main {
+    flex-grow: 1; /* Ensures that main content area occupies remaining space */
+}
+
+/* Footer content styles */
+footer {
+    background-color: #003b59;
+    color: #e7eded;
+    text-align: center;
+    padding: 1rem 0;
+}
