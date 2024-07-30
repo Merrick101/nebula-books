@@ -86,3 +86,33 @@ header {
 #menu-toggle:checked + .menu-toggle-label + nav #nav-menu {
     display: flex;
 }
+
+#nav-menu {
+    background-color: #003b59;
+    list-style-type: none;
+    font-size: 0.75rem;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 75px;
+    top: 60px;
+    right: 0.5rem;
+    z-index: 1000;
+}
+
+#nav-menu li {
+    padding: 1em;
+}
+
+#nav-menu a {
+    color: #e7eded;
+    text-decoration: none;
+}
+
+#nav-menu a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
