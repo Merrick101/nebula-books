@@ -62,3 +62,18 @@ header {
     cursor: pointer;
     height: 100%;
 }
+
+.home-icon svg {
+    padding-left: 4px;
+}
+
+.menu-toggle-label svg {
+    padding-right: 4px;
+}
+
+.home-icon svg,
+.menu-toggle-label svg {
+    height: 26px;
+    width: 26px;
+    fill: #e7eded;
+}
